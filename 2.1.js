@@ -4,7 +4,7 @@ let age = prompt("What is you age?");
 
 if (age >= 18) {
     alert("You are an adult");
-} else (age < 18); {
+} else {
     alert("You are a child");
 } */
 
@@ -14,6 +14,6 @@ let age = prompt("What is you age?");
 
 if (age >= 18) {
     console.log("You are an adult");
-} else (age < 18); {
+} else {
     console.log("You are a child");
 }
