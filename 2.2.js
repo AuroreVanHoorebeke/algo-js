@@ -20,5 +20,3 @@ if (min >= max) {
         console.log(current + " isn't between " + min + " and " + max + ".");
     }
 }
-
-}
