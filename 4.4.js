@@ -39,8 +39,9 @@ function max(arr) {
 }
 
 console.log("Your random numbers are: " + multiRand(n) + ".");
+
 console.log("The average value of these numbers is: " + average(arr));
 
-console.log("The minimum value of these numbers is: " + max(arr));
+console.log("The minimum value of these numbers is: " + min(arr));
 
-console.log("The maximum value of these numbers is: " + min(arr));
+console.log("The maximum value of these numbers is: " + max(arr));
