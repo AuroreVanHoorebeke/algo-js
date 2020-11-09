@@ -2,10 +2,10 @@
 const readlineSync = require('readline-sync');
 
 console.log("Hello, this program will help you generate random numbers between 1 and 10.");
-let n = Number(readlineSync.question("How many random numbers do you want? "));
+let n = readlineSync.question("How many random numbers do you want? ");
 
 function rand10() {
-    return Math.floor(Math.random() * 10);
+    return Math.ceil(Math.random() * 10);
 }
 
 /*multiRand(n) defines an empty array called "random" 
