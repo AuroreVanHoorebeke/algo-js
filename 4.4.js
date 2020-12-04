@@ -18,7 +18,7 @@ function multiRand(n) {
     return arr;
 }
 
-/*The function defines a variable called "avg" and adds up all the values contained in the "arr" array. 
+/*The function defines a variable called "avmax(arr)g" and adds up all the values contained in the "arr" array. 
 It then returns the average value of "avg" by dividing it by arr's length.*/
 function average(arr) {
     let avg = 0;
@@ -37,7 +37,14 @@ function min(arr) {
 function max(arr) {
     return Math.max(...arr);
 }
-
+    /*Alt :  
+    let max = arr[0];
+    for(let elem of arr){
+        if(elem > max){
+        max = elem;
+        }
+    }
+    */
 console.log("Your random numbers are: " + multiRand(n) + ".");
 
 console.log("The average value of these numbers is: " + average(arr));
